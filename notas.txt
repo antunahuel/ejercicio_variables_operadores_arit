@@ -1,0 +1,23 @@
+let diasIngresados, anios, semanas, dias;
+
+diasIngresados = prompt("Ingrese la cantidad de días");
+
+anios = Math.floor(diasIngresados / 365);
+let restoAnios = diasIngresados % 365;
+
+//console.log("resto años:", restoAnios);
+
+semanas = Math.floor(restoAnios / 7);
+
+dias = restoAnios%7;
+//console.log("Resto semanas:", restoSemanas);
+
+console.log("Años: ", anios);
+console.log("semanas: ", semanas);
+console.log("días: ", dias);
+
+
+
+
+
+
